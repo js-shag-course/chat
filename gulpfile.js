@@ -9,7 +9,6 @@ const webserver = require('gulp-webserver')
 
 function html () {
   return src('src/*.html')
-    .pipe()
     .pipe(dest('app/'))
 }
 
@@ -50,3 +49,7 @@ function watching (cb) {
 }
 
 exports.default = parallel(serve, watching)
+
+// TODO : закончить таску сборки
+// https://www.npmjs.com/package/gulp-clean-css - плагин минификации CSS
+exports.build = parallel(buildStyle, buildScript)
