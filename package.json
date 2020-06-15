@@ -1,0 +1,27 @@
+{
+  "name": "shag-chat",
+  "version": "0.0.1",
+  "description": "funny chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "serve": "gulp serve"
+  },
+  "author": "Nikolay",
+  "license": "ISC",
+  "dependencies": {
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-server-io": "^1.5.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^4.14.1"
+  }
+}
